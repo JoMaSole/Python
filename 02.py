@@ -8,5 +8,6 @@ print(completo)
 completito = "Hola mi nombre es {} y mi apellido es {}".format(my_name, my_lastname)
 print(completito)
 
+#esta es la version mas utilizada
 otraversion = f"Hola mi nombre es {my_name} {my_lastname} y tengo {my_age}"
 print(otraversion)
