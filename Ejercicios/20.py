@@ -13,3 +13,4 @@ def cualquier_func(cualquier_arg):
 func1(un_arg, cualquier_func)
 
 print(func1(un_arg,cualquier_func))
+
