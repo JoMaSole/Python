@@ -1,7 +1,7 @@
 objetivo = int(input('Escoge un numero entero: '))
 respuesta = 0
 
-while respuesta**2 < objetivo:
+while respuesta**2 < objetivo: #**2 significa: al cuadrado
     respuesta += 1
 
 if respuesta**2 == objetivo:
