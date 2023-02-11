@@ -1,12 +1,29 @@
 #pip install flask
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 
 def home():
-    return 'Hola, bienvenido'
+    return render_template('home.html')
+
+#nueva ruta
+@app.route('/about')
+def about():
+    return render_template('pagina2.html')
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug = True)
