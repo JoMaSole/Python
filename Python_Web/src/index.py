@@ -9,33 +9,33 @@ def home():
     return render_template('home.html')
 
 #nueva ruta
-@app.route('/Profile')
-def about():
+@app.route('/profile')
+def profile():
     return render_template('pages-profile.html')
 
 @app.route('/sign-in')
-def maps():
-    return render_template('pages-sign-in')
+def signIn():
+    return render_template('pages-sign-in.html')
 
-@app.route('/sign-out')
-def maps():
-    return render_template('pages-sign-out')
+@app.route('/sign-up')
+def signOut():
+    return render_template('pages-sign-up.html')
 
 @app.route('/blank')
-def maps():
-    return render_template('pages-blank')
+def blank():
+    return render_template('pages-blank.html')
 
-@app.route('/')
+@app.route('/maps')
 def maps():
-    return render_template('')
+    return render_template('maps-google.html')
 
-@app.route('/')
-def maps():
-    return render_template('')
+# @app.route('/')
+# def maps():
+#     return render_template('')
 
-@app.route('/')
-def maps():
-    return render_template('')
+# @app.route('/')
+# def maps():
+#     return render_template('')
 
 
 
