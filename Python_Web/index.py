@@ -11,7 +11,7 @@ def home():
 #nueva ruta
 @app.route('/about')
 def about():
-    return render_template('pagina2.html')
+    return render_template('pages-profile.html')
 
 @app.route('/index.html')
 def maps():
