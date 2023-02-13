@@ -13,7 +13,7 @@ def home():
 def about():
     return render_template('pagina2.html')
 
-@app.route('/central-page')
+@app.route('/index.html')
 def maps():
     return render_template('index.html')
 
