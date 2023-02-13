@@ -13,9 +13,9 @@ def home():
 def about():
     return render_template('pagina2.html')
 
-@app.route('mapas')
+@app.route('/central-page')
 def maps():
-    return render_template('maps-google.html')
+    return render_template('index.html')
 
 
 
