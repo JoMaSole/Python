@@ -9,6 +9,10 @@ def home():
     return render_template('home.html')
 
 #nueva ruta
+@app.route('/index')
+def index():
+    return render_template('index.html')
+
 @app.route('/profile')
 def profile():
     return render_template('pages-profile.html')
@@ -29,9 +33,7 @@ def blank():
 def maps():
     return render_template('maps-google.html')
 
-# @app.route('/')
-# def maps():
-#     return render_template('')
+
 
 # @app.route('/')
 # def maps():
