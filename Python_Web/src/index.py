@@ -3,15 +3,11 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
-
-def home():
-    return render_template('home.html')
 
 #nueva ruta
-@app.route('/index')
-def index():
-    return render_template('index.html')
+@app.route('/home')
+def home():
+    return render_template('home.html')
 
 @app.route('/profile')
 def profile():
@@ -25,9 +21,9 @@ def signIn():
 def signOut():
     return render_template('pages-sign-up.html')
 
-@app.route('/blank')
+@app.route('/study')
 def blank():
-    return render_template('pages-blank.html')
+    return render_template('pages-study.html')
 
 @app.route('/maps')
 def maps():
