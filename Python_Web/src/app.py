@@ -29,6 +29,10 @@ def blank():
 def maps():
     return render_template('maps-google.html')
 
+@app.route('/inicio')
+def inicio():
+    return render_template('layout.html')
+
 
 
 # @app.route('/')
