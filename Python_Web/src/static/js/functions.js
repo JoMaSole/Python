@@ -1,6 +1,6 @@
 function cokieeeee() {
     // Setear cookies
-    var cookieName = "StopCookie";
+    var cookieName = "Mr.Cookie";
     var cookieValue = "Politicas y Privacidad";
     var cookieExpireDays = 30;
 

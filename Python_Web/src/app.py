@@ -17,9 +17,9 @@ def profile():
 def signIn():
     return render_template('pages-sign-in.html')
 
-@app.route('/sign-up')
+@app.route('/contact')
 def signOut():
-    return render_template('pages-sign-up.html')
+    return render_template('pages-contact.html')
 
 @app.route('/study')
 def blank():
